@@ -1,18 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="dU!8u),3fb?*VZ!5n{y1">mySprite</variable><variable type="KIND_SpriteKind" id="e^LnDTGMi3G/xun0N3Va">Player</variable><variable type="KIND_SpriteKind" id="4sT|BFc{])~48N-}X9)P">Projectile</variable><variable type="KIND_SpriteKind" id="TZ=rx?q[r$CgU%g%W=gn">Food</variable><variable type="KIND_SpriteKind" id="9il!wK[HkvSXp;Is?ov8">Enemy</variable></variables><block type="pxt-on-start" id="$JCb9+S(d7(`FS6nU7L_" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="382lSj4rdn![S3xq]=dS"><field name="VAR" id="dU!8u),3fb?*VZ!5n{y1">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="SA4}pZ#IFlDTS_^60RWC"><value name="img"><shadow type="screen_image_picker" id="]L7{mB{`7sX/!lJxkPSi"><field name="img">img`
-........................
-..444....444............
-..4344444434............
-..4347447434............
-..444744744e............
-..444444444e44e44e44e4..
-..444434444e44e44e44e44.
-..44ddfdd44e44e44e44e44.
-..444fff444e44e44e44e44.
-...44444444e44e44e44e44.
-....4444444e44..44...44.
-......ee....ee..ee...ee.
-......44....44..44...44.
-......44....44..44...44.
-......44................
-........................
-`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="ENQ?}z1|%D]{ba|uMc.$"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="e^LnDTGMi3G/xun0N3Va">Player</variable><variable type="KIND_SpriteKind" id="4sT|BFc{])~48N-}X9)P">Projectile</variable><variable type="KIND_SpriteKind" id="TZ=rx?q[r$CgU%g%W=gn">Food</variable><variable type="KIND_SpriteKind" id="9il!wK[HkvSXp;Is?ov8">Enemy</variable><variable id="dU!8u),3fb?*VZ!5n{y1">mySprite</variable><variable id="S?O(4ASY9/j4s@Vm.+l@">index</variable><variable id="gEl;~LnhJ0.8P-pScFrL">value</variable><variable id="CZ-{pweZeu|?#m%#L/ff">list</variable></variables><block type="pxt-on-start" id="$JCb9+S(d7(`FS6nU7L_" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="382lSj4rdn![S3xq]=dS"><field name="VAR" id="dU!8u),3fb?*VZ!5n{y1">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="SA4}pZ#IFlDTS_^60RWC"><value name="img"><shadow type="screen_image_picker" id="]L7{mB{`7sX/!lJxkPSi"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . 4 4 4 4 . . . . . . 
+. . . . . 4 4 4 4 4 4 . . . . . 
+. . . . 4 4 4 4 4 4 4 4 . . . . 
+. . . 4 3 4 4 4 4 4 4 3 4 . . . 
+. . . 4 3 f f f f f f 3 4 . . . 
+. . . 4 4 f 4 4 4 4 f 4 4 . . . 
+. . . . . 4 4 4 4 4 4 . . . . . 
+. . . . . 4 4 4 4 4 4 . . . . . 
+. . . . . 4 4 4 4 4 4 . . . . . 
+. . . . . 4 4 4 4 4 4 . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="ENQ?}z1|%D]{ba|uMc.$"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="tilemap_editor" id="aX#-Gma+uWkq..Gmu7Z}"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data><next><block type="ctrlgame_control_sprite" id="a]CL^kR(F6Ps[OVz`W2~"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="controller">controller.player2</field><value name="sprite"><block type="variables_get" id="*oYCblOOk1M[S[s}[B_0"><field name="VAR" id="dU!8u),3fb?*VZ!5n{y1">mySprite</field></block></value><next><block type="pxt_controls_for_of" id=")3A9Rep``+v)%C0r5DZb"><value name="VAR"><shadow type="variables_get_reporter" id="OgXYEzYPBc-y_UidkL)}"><field name="VAR" id="gEl;~LnhJ0.8P-pScFrL">value</field></shadow></value><value name="LIST"><shadow type="variables_get" id="YcjEkC=cYRkig_)bH+_("><field name="VAR" id="CZ-{pweZeu|?#m%#L/ff">list</field></shadow><block type="mapgettilestype" id="%nUer)AKRT$s#)`vrP%Q"><value name="tile"><shadow type="tileset_tile_picker" id="@a8x|4uSd6ODxf1I,-7X"><field name="tile">sprites.dungeon.floorLight2</field></shadow></value></block></value><statement name="DO"><block type="mapsetwallat" id=",c:syf$T_LX)QV.2E#,C"><value name="on"><shadow type="toggleOnOff" id="(dp527!`T%T4oy5#qA9}"><field name="on">true</field></shadow></value><value name="loc"><shadow type="mapgettile" id="sE^ga7W[l+kL1EV8D/ox"><value name="col"><shadow type="math_number" id="SByzM6c*AkV{TpLCNu*k"><field name="NUM">0</field></shadow></value><value name="row"><shadow type="math_number" id=",L}jIhfcqlwvP!dlEF_U"><field name="NUM">0</field></shadow></value></shadow><block type="variables_get" id="{LVnovv$@@EN%g#UTgj9"><field name="VAR" id="gEl;~LnhJ0.8P-pScFrL">value</field></block></value></block></statement></block></next></block></next></block></next></block></statement></block></xml>
