@@ -1,9 +1,11 @@
 {
-    "name": "Kitten Traffic",
+    "name": "Something Special",
     "description": "",
     "dependencies": {
         "device": "*",
-        "tilemaps": "github:microsoft/pxt-tilemaps#v1.10.0"
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.10.0",
+        "arcade-tilemap-a-star": "github:jwunderl/arcade-tilemap-a-star#v0.3.2",
+        "animation": "*"
     },
     "files": [
         "main.blocks",
